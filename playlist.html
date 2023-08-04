@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Play List</title>
+    <link rel="stylesheet" href="style2.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-main">
+        <header>
+            <img id="logo" src="Spotify logo (1).png" alt="logo">
+            </header>
+            <div class="list1">
+             <ul class="nav-list1">
+               <li><a href="index.html" target="_blank"><img src="fi-ss-home (2).png" alt="home">Home</a></li>
+                <li><img src="fi-rs-search.png" alt="search"><input type="text" class="search-input" placeholder="Search"></li>
+                 <li>Your library</li>
+                 <li><h4>PLAYLISTS</h4></li>
+                <li><img id="creat-playlist" src="fi-ss-plus-small.png" alt="plus">Create playlist</li>
+                <li><img src="Group 2 (1).png" alt="heart">Liked song</li>
+             </ul> 
+            </div>
+        <hr width="100%" style="margin-top: 30px; background: #171717" />
+        <div class="cuty-girl">
+          <img src="album art.png" alt="" />
+        </div>
+      </div>
+      <div class="right">
+        <div class="playlist-header">
+          <div class="playlist-container">
+            <div class="playlist-cover">
+              <img src="스크린샷 2021-03-16 오후 4.04 2.png" alt="" />
+            </div>
+            <div class="playlist-text">
+              <div class="playlist-upper">PLAYLIST</div>
+              <div class="playlist-header">Pop Right Now</div>
+              <div class="playlist-description">
+                A soundtrack to fuel your good mood while on the road.
+              </div>
+              <div class="playlist-stats">
+                <span class="name common-main"> Spotify </span>
+                <span class="time common-main">• 8,539,424 likes </span>
+                <span class="time common-main">• 100 songs, </span>
+                <span class="time common-main">8 hr 32 min </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="playlist-songs-container">
+          <div class="playlist-buttons">
+            <div class="playlist-buttons-l">
+              <div class="playlist-buttons-resume-pause">
+                <i class="fa-sharp fa-solid fa-play" style="color: #ffffff"></i>
+              </div>
+              <div class="playlist-buttons-like normal">
+                <img src="images/heart.png " alt="" class="spotify-color" />
+              </div>
+              <div class="playlist-buttons-three-dot normal">
+                 <img src="images/three-dot.png " alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="my-playlist" id="listofsongs">
+            <table >
+              <tr>
+                <th>#</th>
+                <th class="title">Title</th>
+                <th>Album</th>
+                <th>Date Added</th>
+              </tr>
+              <tr>
+                <td>
+                  <i
+                    class="fa-sharp fa-solid fa-play"
+                    style="color: #ffffff"
+                  ></i>
+                </td>
+                <td class="song-title">
+                  <div class="song-image">
+                    <img src="images/list img.png" alt="" />
+                  </div>
+                  <div class="song-name-album">
+                    <div class="song-name">We’re Good</div>
+                    <div class="song-artist">Dua Lipa</div>
+                  </div>
+                </td>
+                <td class="song-album">
+                  Future Nostalgia (The Moonlight Edition)
+                </td>
+                <td class="song-date-added">march 13, 2019</td>
+                <td class="song-duration">
+                  <img src="images/heart.png" alt="" class="heart1" />
+                  6:26
+                </td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td class="song-title">
+                  <div class="song-image">
+                    <img src="images/list img.png" alt="" />
+                  </div>
+                  <div class="song-name-album">
+                    <div class="song-name">We’re Good</div>
+                    <div class="song-artist">Dua Lipa</div>
+                  </div>
+                </td>
+                <td class="song-album">
+                  Let me down slowly (New Edition)
+                </td>
+                <td class="song-date-added">aug 12, 2020</td>
+                <td class="song-duration">5:42</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td class="song-title">
+                  <div class="song-image">
+                    <img src="images/list img.png" alt="" />
+                  </div>
+                  <div class="song-name-album">
+                    <div class="song-name">
+                     I Will Go To You Like The First Snow
+                    </div>
+                    <div class="song-artist">David Guetta</div>
+                  </div>
+                </td>
+                <td class="song-album">Rolling in the Deep(Adele)</td>
+                <td class="song-date-added">May 31, 2022</td>
+                <td class="song-duration">5:28</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td class="song-title">
+                  <div class="song-image">
+                    <img src="images/list img.png" alt="" />
+                  </div>
+                  <div class="song-name-album">
+                    <div class="song-name">Astronaut In The Ocean</div>
+                    <div class="song-artist">Masked Wolf</div>
+                  </div>
+                </td>
+                <td class="song-album">
+                 In The End-Mellen Gi Remix
+                </td>
+                <td class="song-date-added">April 14, 2023</td>
+                <td class="song-duration">1:05</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td class="song-title">
+                  <div class="song-image">
+                    <img src="images/list img.png" alt="" />
+                  </div>
+                  <div class="song-name-album">
+                    <div class="song-name">
+                     Pellom's Time Shop
+                    </div>
+                    <div class="song-artist">Gery Hempsey</div>
+                  </div>
+                </td>
+                <td class="song-album">Calm Down(With Selena Gomez)</td>
+                <td class="song-date-added">Oct 08, 2020</td>
+                <td class="song-duration">8:42</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td class="song-title">
+                  <div class="song-image">
+                    <img src="images/list img.png" alt="" />
+                  </div>
+                  <div class="song-name-album">
+                    <div class="song-name">The Chainsmokers</div>
+                    <div class="song-artist">Andrew"Drew"Target</div>
+                  </div>
+                </td>
+                <td class="song-album">
+                 Don't Let Me Down
+                </td>
+                <td class="song-date-added">Feb 31, 2022</td>
+                <td class="song-duration">10:26</td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td class="song-title">
+                  <div class="song-image">
+                    <img src="images/list img.png" alt="" />
+                  </div>
+                  <div class="song-name-album">
+                    <div class="song-name">
+                     Until I Found You
+                    </div>
+                    <div class="song-artist">Stephan Sanchez</div>
+                  </div>
+                </td>
+                <td class="song-album">What Was I Made For</td>
+                <td class="song-date-added">Aug 12, 2021</td>
+                <td class="song-duration">3:45</td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td class="song-title">
+                  <div class="song-image">
+                    <img src="images/list img.png" alt="" />
+                  </div>
+                  <div class="song-name-album">
+                    <div class="song-name">We’re Good</div>
+                    <div class="song-artist">Dua Lipa</div>
+                  </div>
+                </td>
+                <td class="song-album">
+                    Let me down slowly (New Edition)
+                </td>
+                <td class="song-date-added">Nov 29, 2020</td>
+                <td class="song-duration">5:05</td>
+              </tr>
+              <tr>
+                <td>9</td>
+                <td class="song-title">
+                  <div class="song-image">
+                    <img src="images/list img.png" alt="" />
+                  </div>
+                  <div class="song-name-album">
+                    <div class="song-name">
+                        The Chainsmokers
+                    </div>
+                    <div class="song-artist">Andrew"Drew"Target</div>
+                  </div>
+                </td>
+                <td class="song-album">Young as the Morning old as the Sea</td>
+                <td class="song-date-added">March 31, 2020</td>
+                <td class="song-duration">4:20</td>
+              </tr>
+              <tr>
+                <td>10</td>
+                <td class="song-title">
+                  <div class="song-image">
+                    <img src="images/list img.png" alt="" />
+                  </div>
+                  <div class="song-name-album">
+                    <div class="song-name">We’re Good</div>
+                    <div class="song-artist">Dua Lipa</div>
+                  </div>
+                </td>
+                <td class="song-album">
+                  Future Nostalgia (The Moonlight Edition)
+                </td>
+                <td class="song-date-added">Sep 07, 2022</td>
+                <td class="song-duration">6:59</td>
+              </tr>
+              <tr>
+                <td>11</td>
+                <td class="song-title">
+                  <div class="song-image">
+                    <img src="images/list img.png" alt="" />
+                  </div>
+                  <div class="song-name-album">
+                    <div class="song-name">
+                      Young as the Morning old as the Sea
+                    </div>
+                    <div class="song-artist">Passenger</div>
+                  </div>
+                </td>
+                <td class="song-album">Young as the Morning old as the Sea</td>
+                <td class="song-date-added">May 31, 2022</td>
+                <td class="song-duration">5:28</td>
+              </tr>
+              <tr>
+                <td>12</td>
+                <td class="song-title">
+                  <div class="song-image">
+                    <img src="images/list img.png" alt="" />
+                  </div>
+                  <div class="song-name-album">
+                    <div class="song-name">We’re Good</div>
+                    <div class="song-artist">Dua Lipa</div>
+                  </div>
+                </td>
+                <td class="song-album">
+                  Future Nostalgia (The Moonlight Edition)
+                </td>
+                <td class="song-date-added">April 14, 2023</td>
+                <td class="song-duration">1:05</td>
+            </tr>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="music-player">
+      <div class="song-bar">
+        <div class="song-infos">
+          <div class="image-container">
+            <img src="Rectangle 9.png" alt="" />
+          </div>
+          <div class="song-description">
+            <p class="title">Hold On</p>
+            <p class="artist">Justin Bieber</p>
+          </div>
+        </div>
+        <div class="icons">
+          <img src="images/heart.png" alt="" />
+        </div>
+        <div class="icons">
+          <img src="images/pip.png" class="pip" />
+        </div>
+      </div>
+      <div class="progress-controller">
+        <div class="control-buttons">
+          <i class="fas fa-random"></i>
+          <i class="fas fa-step-backward"></i>
+          <i class="fa-solid fa-play play-pause"></i>
+          <i class="fas fa-step-forward"></i>
+          <i class="fa-solid fa-repeat fa-beat"></i>
+        </div>
+        <div class="progress-container">
+          <span>2:11</span>
+          <div class="progress-bar">
+            <div class="progress"></div>
+          </div>
+          <span>2:42</span>
+        </div>
+      </div>
+      <div class="other-features">
+        <img src="Group 6.png" alt="que-icon" />
+        <img src="Group 7.png" alt="laptop-icon" />
+        <img src="Vector.png" alt="speaker icon" />
+        <div class="volume-bar">
+          <div class="progress-bar">
+            <div class="progress"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
